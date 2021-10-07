@@ -12,7 +12,7 @@
 </h2>
 <ul>
   <li>Farkas Martin</li>
-  <li>Mércy Diána</li>
+  <li>Mércz Diána</li>
   <li>Nazir Muhammad Zafar Iqbal</li>
   <li>Sárdi László Barnabás</li>
 </ul>
