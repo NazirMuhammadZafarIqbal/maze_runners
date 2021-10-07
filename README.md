@@ -1,5 +1,5 @@
 <h1>
-  maze_runners
+  Maze Runners
 </h1>
 <h2>
   Project Plan
