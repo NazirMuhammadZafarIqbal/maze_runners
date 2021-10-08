@@ -1,0 +1,23 @@
+The datastructure of the maze is a char matrix[n][m]
+
+The width and the length can be declared at the top as constant int values
+
+The wall generating is made with a random number generating function, wich gives back a number between 0 and 1
+The base of the randomness is the current time (seconds*milliseconds*milliseconds)
+I used sleep function so it doesnt make too similar numbers.
+
+The outer walls are generated as 'x' always
+The inner walls are decided by the current random number
+if its bigger than 0.5 there will be a wall, else space
+
+the exit and staring points are decided with the random number divided by 0.1
+so we get an integer between 0 and m and that will be the coordinate of the exit and starting points
+
+
+
+
+//Next steps:
+//-Make sure the maze is "walkable" (you can go from 's' to 'e')
+//-Structurize walls (walls cant be next to each other, there are no holes, no pointless space)
+//-Optimalize generation (to look more like a normal maze)
+//-Optimalize random generation (make it faster and more random)
