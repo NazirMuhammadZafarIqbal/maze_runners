@@ -6,9 +6,9 @@ jobs:
     build:
         name: Doxygen use
         runs-on: ubuntu-latest
-            steps:
-                name: Doxygen lib
-                uses: dreygur/doxygen@latest
-                with:
-                    working-directory: 'libraries'
-                    doxyfile-path: 'Doxygen'
+        steps:
+            name: Doxygen lib
+            uses: dreygur/doxygen@latest
+            with:
+                working-directory: 'libraries'
+                doxyfile-path: 'Doxygen'
