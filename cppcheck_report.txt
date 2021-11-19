@@ -1,0 +1,65 @@
+src/GameManager.cpp:111:5: warning: Member variable 'GameManger::player_coords' is not initialized in the constructor. [uninitMemberVar]
+    GameManger(bool is_tests){
+    ^
+src/GameManager.cpp:111:5: warning: Member variable 'GameManger::width' is not initialized in the constructor. [uninitMemberVar]
+    GameManger(bool is_tests){
+    ^
+src/GameManager.cpp:111:5: warning: Member variable 'GameManger::height' is not initialized in the constructor. [uninitMemberVar]
+    GameManger(bool is_tests){
+    ^
+src/GameManager.cpp:27:30: performance:inconclusive: Technically the member function 'GameManger::split' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+    std::vector<std::string> split(std::string line,char delimeter){
+                             ^
+src/GameManager.cpp:74:10: style:inconclusive: Technically the member function 'GameManger::print_table' can be const. [functionConst]
+    void print_table(){
+         ^
+src/GameManager.cpp:86:10: style:inconclusive: Technically the member function 'GameManger::check_collison' can be const. [functionConst]
+    bool check_collison(int x, int y){
+         ^
+src/GameManager.cpp:115:10: performance:inconclusive: Technically the member function 'GameManger::place_player' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+    void place_player(int x, int y){
+         ^
+src/GameManager.cpp:118:10: performance:inconclusive: Technically the member function 'GameManger::place_wall' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+    void place_wall(int x, int y){
+         ^
+src/GameManager.cpp:147:10: performance:inconclusive: Technically the member function 'GameManger::tick' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+    void tick(){
+         ^
+src/GameManager.cpp:151:9: style:inconclusive: Technically the member function 'GameManger::get_width' can be const. [functionConst]
+    int get_width(){
+        ^
+src/GameManager.cpp:154:9: style:inconclusive: Technically the member function 'GameManger::get_height' can be const. [functionConst]
+    int get_height(){
+        ^
+src/GameManager.cpp:158:10: style:inconclusive: Technically the member function 'GameManger::get_table_x_y' can be const. [functionConst]
+    Tile get_table_x_y(int x, int y){
+         ^
+src/GameManager.cpp:111:5: style: Class 'GameManger' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    GameManger(bool is_tests){
+    ^
+src/GameManager.cpp:154:0: style: The function 'get_height' is never used. [unusedFunction]
+
+^
+src/GameManager.cpp:168:0: style: The function 'get_player_coords' is never used. [unusedFunction]
+
+^
+src/GameManager.cpp:158:0: style: The function 'get_table_x_y' is never used. [unusedFunction]
+
+^
+src/GameManager.cpp:151:0: style: The function 'get_width' is never used. [unusedFunction]
+
+^
+src/GameManager.cpp:163:0: style: The function 'new_game' is never used. [unusedFunction]
+
+^
+src/GameManager.cpp:115:0: style: The function 'place_player' is never used. [unusedFunction]
+
+^
+src/GameManager.cpp:118:0: style: The function 'place_wall' is never used. [unusedFunction]
+
+^
+src/GameManager.cpp:147:0: style: The function 'tick' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
