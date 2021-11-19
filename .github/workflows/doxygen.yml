@@ -9,6 +9,3 @@ jobs:
         steps:
           - name: doxygen include
             uses: dreygur/doxygen@1.0.1
-            with:
-                working-directory: '.'
-                doxyfile-path: './libraries'
