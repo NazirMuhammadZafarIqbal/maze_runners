@@ -12,7 +12,6 @@ jobs:
         uses: deep5050/cppcheck-action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN}}
-          other_options: --report-progress
           
         
       - name: publish report    
