@@ -1,0 +1,11 @@
+name: doxygen
+  on:
+    push:
+      branches:
+        - main
+        - develop
+        - farkas-martin #remove before merging to develop
+      uses: dreygur/doxygen@latest
+      with:
+        working-directory: 'libraries'
+        doxyfile-path: 'Doxygen'
