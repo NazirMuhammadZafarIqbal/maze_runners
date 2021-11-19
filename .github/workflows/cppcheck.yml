@@ -21,3 +21,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH_NAME: 'farkas-martin' # your branch name goes here
           #Not exactly sure if this will always have to be modified for the current branch in order to work
+      
+      - name: buildfail
+        uses: deep5050/cppcheck-action@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN}}
+          other_options: --report-progress --error-exitcode=1
+          #Trying to make a second run to detect failure and fail the build upon found issues
