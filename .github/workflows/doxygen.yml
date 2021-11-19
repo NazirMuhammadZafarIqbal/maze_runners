@@ -11,4 +11,4 @@ jobs:
             uses: dreygur/doxygen@1.0.1
             with:
                 working-directory: '.'
-                doxyfile-path: './doxyfile'
+                doxyfile-path: './libraries/Doxyfile'
