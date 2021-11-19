@@ -7,7 +7,6 @@ jobs:
         name: Doxygen use
         runs-on: ubuntu-latest
         steps:
-            name: Doxygen lib
             uses: dreygur/doxygen@latest
             with:
                 working-directory: 'libraries'
