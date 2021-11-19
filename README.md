@@ -14,6 +14,15 @@
   <li>https://www.glfw.org/</li>
 </ul>
 <h2>
+  Contribution to the project
+</h2>
+<ul>
+  Create a new branch from the develop branch with your own ID and continuosly merge changes with the develop branch.
+  The develop branch is merged with the main branch once all deadline goals are met or prior deadline dates (these are specified by the course this project is made for).
+  
+  If you are using a custom IDE make sure to exclude the configuration files by extending the .gitignore file found in the root directory.
+ </ul>
+<h2>
   Team Members
 </h2>
 <ul>
