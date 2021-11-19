@@ -12,8 +12,8 @@ jobs:
         uses: deep5050/cppcheck-action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN}}
-          other_options: --report-progress --error-exitcode=1 
-        
+          other_options: --report-progress  
+          #--error-exitcode=1 enabling this will cancel the error report
       - name: publish report    
         uses: mikeal/publish-to-github-action@master
         env:
