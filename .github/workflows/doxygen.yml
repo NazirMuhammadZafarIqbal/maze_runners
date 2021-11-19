@@ -10,5 +10,5 @@ jobs:
           - name: doxygen include
             uses: dreygur/doxygen@1.0.1
             with:
-                working-directory: 'libraries'
-                doxyfile-path: 'Doxygen'
+                working-directory: './libraries'
+                doxyfile-path: './Doxygen'
